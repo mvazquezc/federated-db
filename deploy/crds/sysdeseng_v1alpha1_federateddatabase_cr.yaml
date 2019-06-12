@@ -1,0 +1,7 @@
+apiVersion: sysdeseng.com/v1alpha1
+kind: FederatedDatabase
+metadata:
+  name: example-federateddatabase
+spec:
+  size: 1
+  replicas: 3
